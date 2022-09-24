@@ -15,7 +15,7 @@ function App() {
     <div className="">
       {data.map((val, idx) => {
         return ((
-          <img src={val.url} />
+          <img src={val.url} alt="no_image" />
         ))
       })}
     </div>
